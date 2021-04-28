@@ -123,6 +123,9 @@ public class Guess2 {
 			System.out.println("*** You Win! ***");
 		}
 
+		// Closed UserInput
+		userInput.close();
+
 		System.out.println("Thanks for playing the Guess Game!");
 	} // end main
 
